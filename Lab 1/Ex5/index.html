@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
+    <style>
+        div {
+          margin-bottom: 10px;
+        }
+        label {
+          display: inline-block;
+          width: 50px;
+        }
+      </style>
+</head>
+
+<body>
+    <label for="firstNumber">No.1</label>
+    <input type="text" id="firstNumber"/>  
+    <label for="secondNumber">No.2</label>
+    <input type="text" id="secondNumber"/>  <br><br>
+    <div></div>
+    <button id="sum">+</button>
+    <button id="dif">-</button>
+    <br>
+    <button id="prod">*</button>
+    <button id="div">/</button>
+    <br>
+    <button id="mod">mod</button>
+    <script src="app.js"></script>
+    <br>
+    <button id="equal">=</button> <br><br>
+    <label for="result">Result</label>
+    <div id="result"></div>
+</body>
+
+</html>

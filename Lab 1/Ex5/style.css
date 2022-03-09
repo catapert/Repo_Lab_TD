@@ -1,0 +1,202 @@
+body {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+  }
+  
+  #widget {
+    width: 60 px;
+    background-color: #555;
+    margin: 0 auto;
+    padding: 10 px;
+  }
+  
+  #firstNumber {
+    height: 30px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 3px 3px 5px grey
+  }
+
+  #secondNumber {
+    height: 30px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 3px 3px 5px grey
+  }
+
+  #result {
+    border: 1px solid black;
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #555;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 3px 3px 5px grey
+  }
+
+  label {
+    color: #B4886B;
+    font-weight: bold;
+    display: block;
+    width: 150px;
+    position: relative;
+  }
+
+  label::after{
+    content: ":";
+  }
+
+  /*#sum {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+
+  #sum:hover {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }
+  
+
+  #dif {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+  
+  #dif:hover {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }
+
+  #prod {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+  
+  #prod:hover {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }
+  
+  #div {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+  
+  #div:hover {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }
+
+  #mod {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+  
+  #mod:hover {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }*/
+
+  button {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+  
+  button:hover,
+  button:focus {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -2px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+  #equal {
+    margin-top: 10 px;
+    height: 50 px;
+    width: 50 px;
+    background-color: #d3d3d3;
+    color: #000000;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border: 0px;
+  }
+  
+  #equal:hover {
+    cursor: pointer;
+    background-color: #000080;
+    color: #fff;
+  }
+
+  #equal:focus{
+    outline: none;
+  }
